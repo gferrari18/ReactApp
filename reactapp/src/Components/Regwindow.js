@@ -32,7 +32,13 @@ function Regwindow() {
           />
         </div>
         <div>
-          <Button buttonStyle="btn--outline">Submit</Button>
+          <Button
+            className="btns"
+            buttonStyle="btn--outline"
+            buttonSize="btn--large"
+          >
+            Submit
+          </Button>
         </div>
       </form>
     </div>
