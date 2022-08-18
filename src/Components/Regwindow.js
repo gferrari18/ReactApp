@@ -12,7 +12,7 @@ function Regwindow() {
 
   function Login() {
     var url =
-      "http://127.0.0.1:5000/login/" +
+      "https://flask-service.ahu3a22b1c5e8.us-west-2.cs.amazonlightsail.com/login/" +
       inputRef1.current.value +
       "/" +
       inputRef2.current.value +
