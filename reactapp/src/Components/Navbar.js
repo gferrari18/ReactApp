@@ -5,6 +5,7 @@ import { Button } from ".//Button";
 
 function Navbar() {
   const [click, setClick] = useState(false);
+
   const [button, setButton] = useState(true);
 
   const handleclick = () => setClick(!click);
